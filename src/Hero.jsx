@@ -6,10 +6,20 @@ const Hero = () => {
     <section className='hero'>
         <div className="hero-center">
             <div className="hero-title">
-                <h1>Contentful CMS</h1>
+                <h1>Frontend developer</h1>
                 <p>
-                    Sartorial cardigan selvage, enamel pin listicle gastropub 8-bit gochujang palo santo humblebrag normcore solarpunk neutra gluten-free. Yr glossier banh mi, schlitz fashion axe gluten-free art party selfies before they sold out gochujang polaroid occupy. Lumbersexual helvetica messenger bag, cray big mood vice listicle DIY af williamsburg mixtape artisan blue bottle. Cliche hoodie portland, four loko selvage subway tile prism praxis chicharrones actually humblebrag. Yes plz migas gorpcore praxis kitsch vinyl artisan. Listicle tumeric hammock put a bird on it brunch dreamcatcher church-key wayfarers cronut.
+                    Hi, I'm Ilya Stoyanov.
                 </p>
+                <p>
+                    I'm Frontend Developer, Html and Css Teacher, JavaScript and React Mentor.
+                </p>
+                <p>
+                    My goal is to make the world a better place, to share my knowledge.
+                </p>
+                <p>
+                    I love my job and all that it encompasses.
+                </p>
+                <a className='hero-link'  href="https://www.youtube.com/@ilyastoyanov-html-css-js-react" target="_blank" rel="noreferrer" title='Youtube channel Ilya Stoyanov'>my youtube channel</a>
             </div>
             <div className="img-container">
                 <img src={heroIcon} alt="woman" />

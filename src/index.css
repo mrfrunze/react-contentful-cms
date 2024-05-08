@@ -370,3 +370,21 @@ PROJECTS
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+.title p, 
+.title h2{
+  line-height: 1.3;
+}
+
+.title .title-underline{
+  margin-top: 0.5rem;
+}
+
+.hero-link {
+  display: block;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #60dbfb;
+  text-transform: capitalize;
+}
+
