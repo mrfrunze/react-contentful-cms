@@ -21,17 +21,20 @@ const Projects = () => {
       </div>
       <div className="projects-center">
         {project.map(item=> {
-          const {id, url, img, title} = item
-          return <a 
-            href={url} 
-            key={id} 
-            target="_blank"
-            rel="noreferrer"
-            className="project"
+          const { id, url, img, title, description } = item;
+          return (
+            <a
+              href={url}
+              key={id}
+              target="_blank"
+              rel="noreferrer"
+              className="project"
             >
               <img src={img} alt={title} className="img" />
               <h5>{title}</h5>
+              <h6>{description}</h6>
             </a>
+          );
         })}
       </div>
     </section>
