@@ -9,10 +9,10 @@ const Hero = () => {
           <h1>Frontend developer</h1>
           <p>
             Hi, I'm Ilya Stoyanov.
-            <span>Frontend Developer from Sweden</span>
           </p>
           <p>
-            I'm Frontend Developer and mentoring for beginners web development.
+            I'm Frontend Developer from Sweden and mentoring for beginners web
+            development.
           </p>
           <p>
             My goal is to make the world a better place, to share my knowledge.
