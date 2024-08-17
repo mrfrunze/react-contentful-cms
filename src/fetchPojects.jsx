@@ -17,10 +17,10 @@ const useFetchProjects = () =>{
             const response = await client.getEntries({content_type: "projects"})
             // console.log(response);
             const data = response.items.map(item => {
-            const {title, url, image} = item.fields
+            const { title, url, image, description} = item.fields;
             const id = item.sys.id
             const img = image?.fields?.file?.url
-                return {title, url, id, img}
+                return { title, url, id, img, description };
            })
         //    console.log(data);
            setProject(data)

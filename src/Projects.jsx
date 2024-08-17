@@ -3,7 +3,7 @@ import useFetchProjects from "./fetchPojects"
 
 const Projects = () => {
   const { loading, project } = useFetchProjects()
-  // console.log(loading, project);
+  console.log(project);
 
   if (loading) {
     return (
@@ -21,6 +21,8 @@ const Projects = () => {
       </div>
       <div className="projects-center">
         {project.map(item=> {
+            // console.log(item);
+            
           const { id, url, img, title, description } = item;
           return (
             <a
@@ -32,7 +34,7 @@ const Projects = () => {
             >
               <img src={img} alt={title} className="img" />
               <h5>{title}</h5>
-              <h6>{description}</h6>
+              <span className="descript">{description}</span>
             </a>
           );
         })}
