@@ -15,7 +15,7 @@ const Projects = () => {
   return (
     <section className="projects">
       <div className="title">
-        <h2>React project</h2>
+        <h2>React projects</h2>
         <p>All project are opening in new window</p>
         <div className="title-underline"></div>
       </div>
