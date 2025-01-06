@@ -1,5 +1,5 @@
 import React from 'react'
-import heroIcon from "./assets/hero.svg"
+import heroIcon from "./assets/developer-active.svg"
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="hero-title">
           <h1>Frontend developer</h1>
           <p>
-            Hi, I'm Ilya Stoyanov.
+            Hi, I'm Oleh Stoyanov.
           </p>
           <p>
             I'm Frontend Developer from Sweden and mentoring for beginners web

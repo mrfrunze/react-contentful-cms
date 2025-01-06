@@ -158,7 +158,7 @@ ul {
     padding: 0;
 }
 
-.img {
+.img, img {
     width: 100%;
     display: block;
     object-fit: cover;
